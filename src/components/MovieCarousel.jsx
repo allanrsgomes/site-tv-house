@@ -47,7 +47,7 @@ export default function MovieCarousel() {
       <Box sx={{ display: 'flex', overflow: 'hidden', whiteSpace: 'nowrap', position: 'relative', mt: 4 }}>
         <Box sx={{ display: 'flex', gap: 1, animation: `${slideLeft} 10s linear infinite`, width: '200%' }}>
           {[...movies, ...movies].map((movie, index) => (
-            <Box key={index} component="img" src={movie} alt={`Filme ${index + 1}`} sx={{ width: '218px', height: '327px', flexShrink: 0 }} />
+            <Box key={index} component="img" loading="lazy" src={movie} alt={`Filme ${index + 1}`} sx={{ width: '218px', height: '327px', flexShrink: 0 }} />
           ))}
         </Box>
       </Box>
@@ -55,7 +55,7 @@ export default function MovieCarousel() {
       <Box sx={{ display: 'flex', overflow: 'hidden', whiteSpace: 'nowrap', position: 'relative', mt: 1 }}>
         <Box sx={{ display: 'flex', gap: 1, animation: `${slideRight} 10s linear infinite`, width: '200%' }}>
           {[...series, ...series].map((serie, index) => (
-            <Box key={index} component="img" src={serie} alt={`Série ${index + 1}`} sx={{ width: '218px', height: '327px', flexShrink: 0 }} />
+            <Box key={index} component="img" loading="lazy" src={serie} alt={`Série ${index + 1}`} sx={{ width: '218px', height: '327px', flexShrink: 0 }} />
           ))}
         </Box>
       </Box>

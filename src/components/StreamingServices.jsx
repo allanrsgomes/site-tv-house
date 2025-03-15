@@ -21,6 +21,7 @@ export default function StreamingServices() {
               component="img"
               src="assets/capa-site.png"
               alt="TV com streaming"
+              loading="lazy"
               sx={{ maxWidth: '100%', height: 'auto' }}
             />
           </Grid>
@@ -34,6 +35,7 @@ export default function StreamingServices() {
                       component="img"
                       src={service.logo}
                       alt={service.name}
+                      loading="lazy"
                       sx={{ 
                         height: 120,
                         width: 120,

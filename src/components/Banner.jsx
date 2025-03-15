@@ -16,6 +16,7 @@ export default function Banner() {
               component="img"
               src="assets/logo-white.png"
               alt="Logo"
+              loading="lazy"
               sx={{ maxWidth: '120px', height: 'auto', marginBottom: '20px' }}
             />
             <Typography variant="h2" component="h1" gutterBottom>
@@ -34,6 +35,7 @@ export default function Banner() {
               component="img"
               src="assets/capa2-site.png"
               alt="TV com streaming"
+              loading="lazy"
               sx={{ maxWidth: '100%', height: 'auto' }}
             />
           </Grid>

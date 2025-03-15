@@ -19,16 +19,16 @@ const movies = [
     synopsis: "Maratone temporadas completas das séries mais populares e premiadas, com conteúdos que vão do suspense ao drama, ação e comédia."
   },
   {
-    title: "Canais adultos",
-    emoji: "🔞",
-    image: "https://appflixtvon.com/site-novo/asset/img/fotos//ADULTO-1.webp",
-    synopsis: "Acesso exclusivo a canais adultos, protegidos por senha para garantir sua privacidade e segurança familiar."
-  },
-  {
     title: "Canais infantis",
     emoji: "👦🎈",
     image: "https://appflixtvon.com/site-novo/asset/img/fotos//INFANTIL-1.webp",
     synopsis: "Diversão garantida para as crianças com uma programação segura, incluindo os melhores conteúdos da Disney, Nickelodeon, Cartoon Network e muito mais!"
+  },
+  {
+    title: "Animes Crunchyroll",
+    emoji: "🎌🔥",
+    image: "https://appflixtvon.com/site-novo/asset/img/fotos//ANIMES-1.webp",
+    synopsis: "Tenha acesso a um catálogo completo de animes atualizados, com legendas e dublagens em alta qualidade para você assistir quando quiser."
   },
   {
     title: "Esportes ao vivo",
@@ -37,10 +37,10 @@ const movies = [
     synopsis: "Acompanhe seu time do coração e assista a eventos esportivos ao vivo, incluindo futebol, artes marciais, basquete, automobilismo e muito mais!"
   },
   {
-    title: "Animes Crunchyroll",
-    emoji: "🎌🔥",
-    image: "https://appflixtvon.com/site-novo/asset/img/fotos//ANIMES-1.webp",
-    synopsis: "Tenha acesso a um catálogo completo de animes atualizados, com legendas e dublagens em alta qualidade para você assistir quando quiser."
+    title: "Canais adultos",
+    emoji: "🔞",
+    image: "https://appflixtvon.com/site-novo/asset/img/fotos//ADULTO-1.webp",
+    synopsis: "Acesso exclusivo a canais adultos, protegidos por senha para garantir sua privacidade e segurança familiar."
   }
 ];
 

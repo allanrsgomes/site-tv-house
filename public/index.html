@@ -2,20 +2,46 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="TV House - Assista a milhares de filmes, séries e canais ao vivo por um único preço acessível!" />
+    <meta name="keywords" content="streaming, netflix, disney+, hbo max, filmes, séries, tv online, assinatura barata" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="TV House - O Melhor Streaming em Um Só Lugar" />
+    <meta property="og:description" content="Assista conteúdos de diversas plataformas de streaming pagando menos!" />
+    <meta property="og:image" content="%PUBLIC_URL%/banner.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tvhouse.com.br" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TV House - Streaming Acessível" />
+    <meta name="twitter:description" content="Tenha acesso a filmes, séries e canais ao vivo sem pagar caro!" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/banner.png" />
+    
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" href="/src/style.css">
-    <title>TV House APP</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    
+    <title>TV House - Assista Tudo em Um Só Lugar</title>
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "TV House Streaming",
+        "description": "Assista filmes e séries ilimitados pagando pouco.",
+        "brand": { "@type": "Brand", "name": "TV House" },
+        "offers": {
+          "@type": "Offer",
+          "price": "44.90",
+          "priceCurrency": "BRL",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>Você precisa ativar o JavaScript para rodar este aplicativo.</noscript>
     <div id="root"></div>
   </body>
 </html>
