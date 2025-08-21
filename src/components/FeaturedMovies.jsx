@@ -9,37 +9,37 @@ const movies = [
   {
     title: "Filmes incríveis",
     emoji: "🎥",
-    image: "https://appflixtvon.com/site-novo/asset/img/fotos//FILMES-1.webp",
+    image: "https://ctcnxjfpwuxoacnf.public.blob.vercel-storage.com/FILMES-1.webp",
     synopsis: "Explore um vasto catálogo com os maiores sucessos do cinema, desde clássicos atemporais até os lançamentos mais esperados, tudo em alta definição."
   },
   {
     title: "Séries imperdíveis",
     emoji: "📺",
-    image: "https://appflixtvon.com/site-novo/asset/img/fotos//SERIES-1.webp",
+    image: "https://ctcnxjfpwuxoacnf.public.blob.vercel-storage.com/SERIES-1.webp",
     synopsis: "Maratone temporadas completas das séries mais populares e premiadas, com conteúdos que vão do suspense ao drama, ação e comédia."
   },
   {
     title: "Canais infantis",
     emoji: "👦🎈",
-    image: "https://appflixtvon.com/site-novo/asset/img/fotos//INFANTIL-1.webp",
+    image: "https://ctcnxjfpwuxoacnf.public.blob.vercel-storage.com/INFANTIL-1.webp",
     synopsis: "Diversão garantida para as crianças com uma programação segura, incluindo os melhores conteúdos da Disney, Nickelodeon, Cartoon Network e muito mais!"
   },
   {
     title: "Animes Crunchyroll",
     emoji: "🎌🔥",
-    image: "https://appflixtvon.com/site-novo/asset/img/fotos//ANIMES-1.webp",
+    image: "https://ctcnxjfpwuxoacnf.public.blob.vercel-storage.com/ANIMES-1.webp",
     synopsis: "Tenha acesso a um catálogo completo de animes atualizados, com legendas e dublagens em alta qualidade para você assistir quando quiser."
   },
   {
     title: "Esportes ao vivo",
     emoji: "⚽🏆",
-    image: "https://appflixtvon.com/site-novo/asset/img/fotos//ESPORTES-1.webp",
+    image: "https://ctcnxjfpwuxoacnf.public.blob.vercel-storage.com/ESPORTES-1.webp",
     synopsis: "Acompanhe seu time do coração e assista a eventos esportivos ao vivo, incluindo futebol, artes marciais, basquete, automobilismo e muito mais!"
   },
   {
     title: "Canais adultos",
     emoji: "🔞",
-    image: "https://appflixtvon.com/site-novo/asset/img/fotos//ADULTO-1.webp",
+    image: "https://ctcnxjfpwuxoacnf.public.blob.vercel-storage.com/ADULTO-1.webp",
     synopsis: "Acesso exclusivo a canais adultos, protegidos por senha para garantir sua privacidade e segurança familiar."
   }
 ];
